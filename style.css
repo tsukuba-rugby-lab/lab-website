@@ -69,3 +69,11 @@ footer {
 .left-align {
   text-align: left;
 }
+
+.tagline {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+  font-weight: bold;
+}
