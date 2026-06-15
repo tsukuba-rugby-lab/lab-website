@@ -50,3 +50,18 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
+
+.large-text {
+  font-size: 1.2em;
+}
+
+.large-bold-text {
+  font-size: 1.3em;
+  font-weight: bold;
+}
