@@ -71,6 +71,11 @@ footer {
   font-weight: bold;
 }
 
+.large-bold-name {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
 .left-align {
   text-align: left;
 }
