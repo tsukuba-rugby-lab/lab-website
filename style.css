@@ -65,3 +65,7 @@ footer {
   font-size: 1.3em;
   font-weight: bold;
 }
+
+.left-align {
+  text-align: left;
+}
