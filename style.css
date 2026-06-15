@@ -120,3 +120,25 @@ footer {
   margin-bottom: 2px;
   line-height: 1.4;
 }
+
+```css
+.news-list {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.news-item {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  line-height: 1.5;
+}
+
+.news-scroll {
+  max-height: 180px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px 14px;
+  background: #fafafa;
+  margin-top: 8px;
+}
+```
