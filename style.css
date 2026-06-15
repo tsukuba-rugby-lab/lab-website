@@ -87,7 +87,13 @@ footer {
   font-size: 1.3em;
   font-weight: bold;
 }
-
+.tagline-name {
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  font-weight: bold;
+}
 .tagline-futureblue {
   text-align: left;
   margin-top: 0;
