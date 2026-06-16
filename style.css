@@ -151,4 +151,8 @@ footer {
 .news-scroll .news-item {
   font-size: 0.85em;
 }
-```
+
+.recommend-star {
+  color: #00C4D9;
+  font-weight: bold;
+}
