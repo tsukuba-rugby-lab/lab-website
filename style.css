@@ -132,6 +132,7 @@ footer {
   margin-top: 4px;
   margin-bottom: 4px;
   line-height: 1.5;
+  font-size: 0.9em;
 }
 
 .news-scroll {
@@ -141,5 +142,9 @@ footer {
   padding: 10px 14px;
   background: #fafafa;
   margin-top: 8px;
+}
+
+.news-scroll .news-item {
+  font-size: 0.85em;
 }
 ```
