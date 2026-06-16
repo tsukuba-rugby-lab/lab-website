@@ -156,3 +156,23 @@ footer {
   color: #00C4D9;
   font-weight: bold;
 }
+
+.page-links {
+  margin: 18px 0 24px 0;
+  padding: 12px 16px;
+  background: #f4f4f4;
+  border-left: 6px solid #5C068C;
+}
+
+.page-links a {
+  display: inline-block;
+  margin-right: 18px;
+  margin-bottom: 6px;
+  color: #5C068C;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.page-links a:hover {
+  text-decoration: underline;
+}
