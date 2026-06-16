@@ -1,0 +1,106 @@
+```html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>実践活動｜筑波大学ラグビーコーチング論研究室</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>筑波大学ラグビーコーチング論研究室</h1>
+    <p>Rugby Coaching Laboratory, University of Tsukuba</p>
+  </header>
+
+  <nav>
+    <a href="index.html">トップ</a>
+    <a href="about.html">研究室紹介</a>
+    <a href="members.html">メンバー</a>
+    <a href="publications.html">研究活動</a>
+    <a href="practice.html">実践活動</a>
+    <a href="contact.html">連絡先</a>
+  </nav>
+
+  <main>
+    <section>
+      <p class="tagline-classicpurple">実践活動</p>
+
+      <p class="tagline">Practical Activities</p>
+
+      <p>
+        ラグビーコーチング論研究室では，研究活動によって得られた知見を競技現場に還元することを重視しています。
+        大学ラグビー部でのコーチング実践，ナショナルチームや各年代カテゴリーとの連携，
+        指導者養成，ゲーム分析支援，普及・育成活動などを通じて，
+        ラグビーの競技力向上と安全で効果的なコーチングの発展に取り組んでいます。
+      </p>
+
+      <p class="tagline-futureblue">コーチング実践</p>
+
+      <div class="member-profile">
+        <p>
+          本研究室では，筑波大学体育会ラグビー部における日常的なコーチング実践を通じて，
+          研究と現場を接続する取り組みを行っています。
+        </p>
+        <p>
+          トレーニング計画，スキル指導，戦術理解，ゲーム分析，選手との対話を通じて，
+          競技現場で実際に活用できるコーチング方法の検討を進めています。
+        </p>
+      </div>
+
+      <p class="tagline-futureblue">ゲーム分析・パフォーマンス分析支援</p>
+
+      <div class="member-profile">
+        <p>
+          試合映像や記録データを用いて，チームや選手のパフォーマンスを分析し，
+          戦術的課題や改善点の可視化を行っています。
+        </p>
+        <p>
+          得点様相，起点プレー，セットプレー，ブレイクダウン，キック，防御局面など，
+          ラグビーの多様なプレー局面を対象に分析を行い，現場での意思決定に役立つ情報提供を目指しています。
+        </p>
+      </div>
+
+      <p class="tagline-futureblue">指導者養成・講習活動</p>
+
+      <div class="member-profile">
+        <p>
+          ラグビーの指導者養成や講習活動を通じて，安全で効果的なコーチングの普及に取り組んでいます。
+        </p>
+        <p>
+          競技規則，コーチングフィロソフィ，スキル指導，チームマネジメント，
+          ゲーム分析の活用方法など，実践現場に必要な知識と方法を共有しています。
+        </p>
+      </div>
+
+      <p class="tagline-futureblue">競技団体・チームとの連携</p>
+
+      <div class="member-profile">
+        <p>
+          日本ラグビーフットボール協会，各カテゴリーの代表チーム，国内トップチーム，
+          地域・学校現場などとの連携を通じて，ラグビーの競技力向上と普及・育成に貢献する活動を行っています。
+        </p>
+        <p>
+          研究成果を一方向的に発信するだけでなく，現場で生じる課題や問いを研究に取り込み，
+          研究と実践が相互に高め合う関係を目指しています。
+        </p>
+      </div>
+
+      <p class="tagline-futureblue">主な実践活動</p>
+
+      <ul>
+        <li>筑波大学体育会ラグビー部におけるコーチング実践</li>
+        <li>ラグビーのゲーム分析・パフォーマンス分析支援</li>
+        <li>スキル指導および戦術理解に関する実践的検討</li>
+        <li>指導者養成，講習会，研修会での情報提供</li>
+        <li>ナショナルチーム，トップチーム，育成年代との連携</li>
+        <li>研究成果の競技現場への還元</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 筑波大学ラグビーコーチング論研究室</p>
+  </footer>
+</body>
+</html>
+```
