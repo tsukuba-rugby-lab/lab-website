@@ -4,80 +4,144 @@
   <meta charset="UTF-8">
   <title>メンバー｜筑波大学ラグビーコーチング論研究室</title>
   <link rel="stylesheet" href="style.css">
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .page-links {
+      margin: 18px 0 24px 0;
+      padding: 12px 16px;
+      background: #f4f4f4;
+      border-left: 6px solid #5C068C;
+    }
+
+    .page-links a {
+      display: inline-block;
+      margin-right: 18px;
+      margin-bottom: 6px;
+      color: #5C068C;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .page-links a:hover {
+      text-decoration: underline;
+    }
+
+    .back-to-top {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      text-align: right;
+      font-size: 0.9em;
+    }
+
+    .back-to-top a {
+      color: #5C068C;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .back-to-top a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
+
 <body>
-  <header>
+  <header id="top">
     <h1>筑波大学ラグビーコーチング論研究室</h1>
-    <p>Rugby Coaching Laboratory, University of Tsukuba</p>
+    <p>Laboratory for Rugby Coaching Studies, University of Tsukuba</p>
   </header>
 
-<nav>
+  <nav>
     <a href="index.html">トップ</a>
     <a href="about.html">研究室紹介</a>
     <a href="members.html">メンバー</a>
     <a href="publications.html">研究活動</a>
+    <a href="practice.html">実践活動</a>
     <a href="theses.html">卒業論文・学位論文</a>
-    <a href="practice.html">実践活動</a>    
-    <a href="others.html">その他</a>  
-</nav>
+    <a href="others.html">その他</a>
+  </nav>
 
   <main>
     <section>
       <p class="tagline-classicpurple">メンバー</p>
       <p class="tagline">Member</p>
 
-      <p class="tagline-futureblue">教員</p>
+      <div class="page-links">
+        <a href="#faculty">教員</a>
+        <a href="#graduate-students">大学院生</a>
+        <a href="#undergraduate-students">体育専門学群生</a>
+      </div>
+
+      <p id="faculty" class="tagline-futureblue">教員</p>
 
       <div class="member-profile">
-        <p class="tagline-name"> 古川 拓生：准教授，博士（コーチング学）</p>
-        <p>  　体育会ラグビー部・同好会ラグビー部 部長</p>
-        <p>  　日本スポーツ協会公認ラグビーフットボールコーチ3</p>
-        <p>  　日本ラグビーフットボール協会A級コーチ，C級コーチエデュケーター</p>
-        <p class="tagline-name"> 　主な研究テーマ</p>
+        <p class="tagline-name">古川 拓生：准教授，博士（コーチング学）</p>
+        <p>　体育会ラグビー部・同好会ラグビー部 部長</p>
+        <p>　日本スポーツ協会公認ラグビーフットボールコーチ3</p>
+        <p>　日本ラグビーフットボール協会A級コーチ，C級コーチエデュケーター</p>
+
+        <p class="tagline-name">主な研究テーマ</p>
         <p>　● ラグビーのゲームパフォーマンス分析</p>
         <p>　● 男女7人制・15人制の戦術研究</p>
       </div>
 
       <div class="member-profile">
-        <p class="tagline-name"> 嶋﨑 達也：助教，修士（体育学）</p>
-        <p>  　体育会ラグビー部 監督</p>
-        <p>  　日本ラグビーフットボール協会A級コーチ</p>
+        <p class="tagline-name">嶋﨑 達也：助教，修士（体育学）</p>
+        <p>　体育会ラグビー部 監督</p>
+        <p>　日本ラグビーフットボール協会A級コーチ</p>
       </div>
 
-      <p class="tagline-futureblue">大学院生</p>
+      <p class="back-to-top"><a href="#top">ページ上部へ戻る</a></p>
+
+      <p id="graduate-students" class="tagline-futureblue">大学院生</p>
 
       <div class="member-profile">
         <p><span class="large-bold-name">博士前期課程 体育学学位プログラム</span></p>
-        <p><span class="large-bold-name"> 武田 龍蔵</span>（MC2，福島大学 人間発達文化学類スポーツ健康科学コース）</p>
-                <p>  　　　　　　研究キーワード：ラインアウトアタック，フェーズ間連鎖</p>
-        <p><span class="large-bold-name"> 谷川 智樹</span>（MC2，朝日大学 保険医療学部健康スポーツ科学科）</p>
-                <p>  　　　　　　研究キーワード：ワーストケースシナリオ，GPS，ゲーム負荷</p>
-        <p><span class="large-bold-name"> 土井 美咲</span>（MC2，順天堂大学 スポーツ健康科学スポーツ健康科学科部）</p>
-                <p>  　　　　　　研究キーワード：女子7人制，ラックターンオーバー，技術的成功要因</p>
-        <p><span class="large-bold-name"> 岡野 智弥</span>（MC1，立正大学 データサイエンス学部データサイエンス学科）</p>
-                <p>  　　　　　　研究キーワード：</p>
-        <p><span class="large-bold-name"> 西 舞衣子</span>（MC1，筑波大学 体育専門学群）</p>
-                <p>  　　　　　　研究キーワード：</p>
-        <p><span class="large-bold-name"> 星 凌太</span>（MC1，筑波大学 体育専門学群）</p>
-                <p>  　　　　　　研究キーワード：</p>        
-        <p><span class="large-bold-name"> 渡邉 洋人</span>（MC1，筑波大学 社会・国際学群社会学類）</p>
-                <p>  　　　　　　研究キーワード：</p>        
+
+        <p><span class="large-bold-name">武田 龍蔵</span>（MC2，福島大学 人間発達文化学類スポーツ健康科学コース）</p>
+        <p>　　　　　　研究キーワード：ラインアウトアタック，フェーズ間連鎖</p>
+
+        <p><span class="large-bold-name">谷川 智樹</span>（MC2，朝日大学 保険医療学部健康スポーツ科学科）</p>
+        <p>　　　　　　研究キーワード：ワーストケースシナリオ，GPS，ゲーム負荷</p>
+
+        <p><span class="large-bold-name">土井 美咲</span>（MC2，順天堂大学 スポーツ健康科学スポーツ健康科学科部）</p>
+        <p>　　　　　　研究キーワード：女子7人制，ラックターンオーバー，技術的成功要因</p>
+
+        <p><span class="large-bold-name">岡野 智弥</span>（MC1，立正大学 データサイエンス学部データサイエンス学科）</p>
+        <p>　　　　　　研究キーワード：</p>
+
+        <p><span class="large-bold-name">西 舞衣子</span>（MC1，筑波大学 体育専門学群）</p>
+        <p>　　　　　　研究キーワード：</p>
+
+        <p><span class="large-bold-name">星 凌太</span>（MC1，筑波大学 体育専門学群）</p>
+        <p>　　　　　　研究キーワード：</p>
+
+        <p><span class="large-bold-name">渡邉 洋人</span>（MC1，筑波大学 社会・国際学群社会学類）</p>
+        <p>　　　　　　研究キーワード：</p>
       </div>
 
-      <p class="tagline-futureblue">体育専門学群生</p>
+      <p class="back-to-top"><a href="#top">ページ上部へ戻る</a></p>
+
+      <p id="undergraduate-students" class="tagline-futureblue">体育専門学群生</p>
 
       <div class="member-profile">
-        <p><span class="large-bold-name"> 飯岡 建人</span>（UG4，流通経済大学附属柏高等学校）</p>
-        <p><span class="large-bold-name"> 磯部 俊太朗</span>（UG4，國學院大學久我山中学高等学校）</p>
-        <p><span class="large-bold-name"> 増山 将</span>（UG4，東海大学付属大阪仰星高等学校中等部・高等学校）</p>
-        <p><span class="large-bold-name"> 井上 達木</span>（UG3，佐賀工業高等学校）</p>
-        <p><span class="large-bold-name"> 茨木 海斗</span>（UG3，東福岡高等学校）</p>
-        <p><span class="large-bold-name"> 上野 花珠</span>（UG3，関東学院六浦高等学校）</p>
-        <p><span class="large-bold-name"> 加島 優陽</span>（UG3，石見智翠館高等学校）</p>
-        <p><span class="large-bold-name"> 黒田 琉樹</span>（UG3，名古屋市立向陽高等学校）</p>
-        <p><span class="large-bold-name"> 中森 真翔</span>（UG3，桐蔭学園高等学校）</p>
-        <p><span class="large-bold-name"> 浜浦 幸太郎</span>（UG3，中部大学春日丘高等学校校）</p>
+        <p><span class="large-bold-name">飯岡 建人</span>（UG4，流通経済大学附属柏高等学校）</p>
+        <p><span class="large-bold-name">磯部 俊太朗</span>（UG4，國學院大學久我山中学高等学校）</p>
+        <p><span class="large-bold-name">増山 将</span>（UG4，東海大学付属大阪仰星高等学校中等部・高等学校）</p>
+        <p><span class="large-bold-name">井上 達木</span>（UG3，佐賀工業高等学校）</p>
+        <p><span class="large-bold-name">茨木 海斗</span>（UG3，東福岡高等学校）</p>
+        <p><span class="large-bold-name">上野 花珠</span>（UG3，関東学院六浦高等学校）</p>
+        <p><span class="large-bold-name">加島 優陽</span>（UG3，石見智翠館高等学校）</p>
+        <p><span class="large-bold-name">黒田 琉樹</span>（UG3，名古屋市立向陽高等学校）</p>
+        <p><span class="large-bold-name">中森 真翔</span>（UG3，桐蔭学園高等学校）</p>
+        <p><span class="large-bold-name">浜浦 幸太郎</span>（UG3，中部大学春日丘高等学校）</p>
       </div>
+
+      <p class="back-to-top"><a href="#top">ページ上部へ戻る</a></p>
     </section>
   </main>
 
