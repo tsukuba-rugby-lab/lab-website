@@ -77,6 +77,12 @@ footer {
   font-weight: bold;
 }
 
+.bold-text-blue {
+  font-size: 1.0em;
+  font-weight: bold;
+  color: blue;
+}
+
 .large-bold-text {
   font-size: 1.3em;
   font-weight: bold;
