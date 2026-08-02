@@ -60,6 +60,8 @@
     }
 
     .home-content {
+      box-sizing: border-box;
+      width: 100%;
       max-width: 1100px;
       margin: 0 auto;
       padding: 0 20px;
@@ -67,23 +69,27 @@
 
     .home-content .member-profile p,
     .news-item {
-      overflow-wrap: anywhere;
+      overflow-wrap: break-word;
       word-break: normal;
     }
 
+    /* タブレット・スマートフォン */
     @media (max-width: 768px) {
       .hero {
-        margin-bottom: 18px;
-        padding: 26px 18px;
+        margin-bottom: 20px;
+        padding: 24px 16px;
       }
 
       .hero-catch {
-        font-size: 1.45rem;
+        margin-bottom: 10px;
+        font-size: 1.4rem;
+        line-height: 1.45;
       }
 
       .hero-description {
-        font-size: 1rem;
-        line-height: 1.7;
+        max-width: 100%;
+        font-size: 0.96rem;
+        line-height: 1.75;
       }
 
       .pc-break {
@@ -91,58 +97,63 @@
       }
 
       .home-content {
+        width: 100%;
+        max-width: 100%;
         padding: 0 15px;
       }
 
-      nav {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
-
-      nav a {
-        box-sizing: border-box;
-        padding: 10px 12px;
-      }
-
-      .member-profile {
-        box-sizing: border-box;
-        max-width: 100%;
-      }
-
+      .member-profile,
       .news-scroll {
         box-sizing: border-box;
+        width: 100%;
         max-width: 100%;
+      }
+
+      .home-content .member-profile p,
+      .news-item {
+        overflow-wrap: break-word;
+        word-break: normal;
       }
     }
 
-    @media (max-width: 480px) {
+    /* 375px以下 */
+    @media (max-width: 375px) {
       .hero {
-        margin-bottom: 16px;
-        padding: 22px 15px;
+        margin-bottom: 20px;
+        padding: 20px 14px;
       }
 
       .hero-catch {
-        font-size: 1.25rem;
+        font-size: 1.2rem;
+        line-height: 1.45;
       }
 
       .hero-description {
-        font-size: 0.95rem;
-        text-align: left;
-      }
-
-      header h1 {
-        font-size: 1.4rem;
-      }
-
-      header p {
-        font-size: 0.85rem;
-      }
-
-      nav a {
-        width: 50%;
-        padding: 11px 5px;
+        font-size: 0.9rem;
+        line-height: 1.7;
         text-align: center;
+      }
+
+      .home-content {
+        padding: 0 12px;
+      }
+
+      .tagline-classicpurple,
+      .tagline,
+      .tagline-futureblue {
+        box-sizing: border-box;
+        max-width: 100%;
+        overflow-wrap: break-word;
+      }
+
+      .member-profile {
+        padding-left: 14px;
+        padding-right: 14px;
+      }
+
+      .member-profile p,
+      .news-item {
+        line-height: 1.7;
       }
     }
   </style>
