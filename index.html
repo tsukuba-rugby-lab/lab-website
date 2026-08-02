@@ -2,7 +2,6 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <meta
@@ -23,115 +22,39 @@
       overflow-x: hidden;
     }
 
-    /* トップページ冒頭 */
+    /* トップページのキャッチコピー */
     .hero {
       margin: 0;
-      padding: 72px 24px;
+      padding: 32px 20px;
       color: #ffffff;
       text-align: center;
-      background:
-        linear-gradient(
-          135deg,
-          #3f055f 0%,
-          #5c068c 55%,
-          #7828a3 100%
-        );
+      background: linear-gradient(
+        135deg,
+        #3f055f 0%,
+        #5c068c 55%,
+        #7828a3 100%
+      );
     }
 
     .hero-inner {
-      max-width: 920px;
+      max-width: 900px;
       margin: 0 auto;
     }
 
-    .hero-university {
-      margin: 0 0 8px;
-      font-size: 1rem;
-      font-weight: bold;
-      letter-spacing: 0.18em;
-    }
-
-    .hero-title {
-      margin: 0;
-      color: #ffffff;
-      font-size: 2.65rem;
-      line-height: 1.4;
-      letter-spacing: 0.04em;
-    }
-
-    .hero-en {
-      margin: 12px 0 36px;
-      font-size: 1rem;
-      line-height: 1.6;
-      letter-spacing: 0.05em;
-    }
-
     .hero-catch {
-      margin: 0 0 20px;
-      font-size: 2rem;
+      margin: 0 0 10px;
+      font-size: 1.8rem;
       font-weight: bold;
-      line-height: 1.55;
+      line-height: 1.5;
     }
 
     .hero-description {
       max-width: 760px;
       margin: 0 auto;
-      font-size: 1.08rem;
-      line-height: 2;
-    }
-
-    /* 主要ページへの入口 */
-    .top-links {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 22px;
-      max-width: 1000px;
-      margin: 48px auto 58px;
-      padding: 0 20px;
-    }
-
-    .top-card {
-      display: block;
-      padding: 28px;
-      color: #222222;
-      text-decoration: none;
-      background: #f8f5fa;
-      border: 1px solid #ded4e4;
-      border-left: 7px solid #5c068c;
-      border-radius: 4px;
-      box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
-      transition:
-        transform 0.2s ease,
-        box-shadow 0.2s ease,
-        background 0.2s ease;
-    }
-
-    .top-card:hover,
-    .top-card:focus {
-      background: #ffffff;
-      transform: translateY(-4px);
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-    }
-
-    .top-card h2 {
-      margin: 0 0 10px;
-      color: #5c068c;
-      font-size: 1.35rem;
-      line-height: 1.5;
-    }
-
-    .top-card p {
-      margin: 0;
+      font-size: 1.05rem;
       line-height: 1.8;
     }
 
-    .top-card-arrow {
-      display: inline-block;
-      margin-top: 14px;
-      color: #5c068c;
-      font-weight: bold;
-    }
-
-    /* トップページ本文 */
     .home-content {
       max-width: 1100px;
       margin: 0 auto;
@@ -144,48 +67,18 @@
       word-break: normal;
     }
 
-    /* スマートフォン表示 */
     @media (max-width: 768px) {
       .hero {
-        padding: 50px 18px;
-      }
-
-      .hero-university {
-        font-size: 0.95rem;
-      }
-
-      .hero-title {
-        font-size: 1.85rem;
-      }
-
-      .hero-en {
-        margin-bottom: 28px;
-        font-size: 0.9rem;
+        padding: 26px 18px;
       }
 
       .hero-catch {
-        font-size: 1.5rem;
+        font-size: 1.45rem;
       }
 
       .hero-description {
         font-size: 1rem;
-        line-height: 1.9;
-        text-align: left;
-      }
-
-      .top-links {
-        grid-template-columns: 1fr;
-        gap: 15px;
-        margin: 32px auto 45px;
-        padding: 0 15px;
-      }
-
-      .top-card {
-        padding: 22px 20px;
-      }
-
-      .top-card h2 {
-        font-size: 1.25rem;
+        line-height: 1.7;
       }
 
       .home-content {
@@ -216,19 +109,16 @@
 
     @media (max-width: 480px) {
       .hero {
-        padding: 42px 16px;
-      }
-
-      .hero-title {
-        font-size: 1.55rem;
+        padding: 22px 15px;
       }
 
       .hero-catch {
-        font-size: 1.3rem;
+        font-size: 1.25rem;
       }
 
       .hero-description {
-        font-size: 0.98rem;
+        font-size: 0.95rem;
+        text-align: left;
       }
 
       header h1 {
@@ -265,19 +155,8 @@
   </nav>
 
   <main>
-    <!-- トップページのメインエリア -->
     <section class="hero">
       <div class="hero-inner">
-        <p class="hero-university">筑波大学</p>
-
-        <h2 class="hero-title">
-          ラグビーコーチング論研究室
-        </h2>
-
-        <p class="hero-en">
-          Laboratory for Rugby Coaching Studies
-        </p>
-
         <p class="hero-catch">
           ラグビーを科学し，現場に還元する。
         </p>
@@ -287,41 +166,6 @@
           コーチング実践を通して，ラグビーの競技力向上と発展に貢献します。
         </p>
       </div>
-    </section>
-
-    <!-- 主要ページへの入口 -->
-    <section class="top-links" aria-label="主要ページ">
-      <a class="top-card" href="about.html">
-        <h2>研究室紹介</h2>
-        <p>
-          研究室の理念，特色，教育内容，主な研究領域を紹介します。
-        </p>
-        <span class="top-card-arrow">詳しく見る →</span>
-      </a>
-
-      <a class="top-card" href="publications.html">
-        <h2>研究活動</h2>
-        <p>
-          学術論文，著書，翻訳，受賞などの研究成果を掲載しています。
-        </p>
-        <span class="top-card-arrow">詳しく見る →</span>
-      </a>
-
-      <a class="top-card" href="theses.html">
-        <h2>卒業・学位論文</h2>
-        <p>
-          卒業論文，修士論文，博士論文を年度別に紹介します。
-        </p>
-        <span class="top-card-arrow">詳しく見る →</span>
-      </a>
-
-      <a class="top-card" href="members.html">
-        <h2>メンバー</h2>
-        <p>
-          教員，大学院生，学群生など，研究室のメンバーを紹介します。
-        </p>
-        <span class="top-card-arrow">詳しく見る →</span>
-      </a>
     </section>
 
     <section class="home-content">
