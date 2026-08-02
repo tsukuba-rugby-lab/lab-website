@@ -2,7 +2,6 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <meta
     name="description"
@@ -16,10 +15,6 @@
   <style>
     html {
       scroll-behavior: smooth;
-    }
-
-    body {
-      overflow-x: hidden;
     }
 
     /* トップページのキャッチコピー */
@@ -55,106 +50,10 @@
       line-height: 1.8;
     }
 
-    .pc-break {
-      display: inline;
-    }
-
     .home-content {
-      box-sizing: border-box;
-      width: 100%;
       max-width: 1100px;
       margin: 0 auto;
       padding: 0 20px;
-    }
-
-    .home-content .member-profile p,
-    .news-item {
-      overflow-wrap: break-word;
-      word-break: normal;
-    }
-
-    /* タブレット・スマートフォン */
-    @media (max-width: 768px) {
-      .hero {
-        margin-bottom: 20px;
-        padding: 24px 16px;
-      }
-
-      .hero-catch {
-        margin-bottom: 10px;
-        font-size: 1.4rem;
-        line-height: 1.45;
-      }
-
-      .hero-description {
-        max-width: 100%;
-        font-size: 0.96rem;
-        line-height: 1.75;
-      }
-
-      .pc-break {
-        display: none;
-      }
-
-      .home-content {
-        width: 100%;
-        max-width: 100%;
-        padding: 0 15px;
-      }
-
-      .member-profile,
-      .news-scroll {
-        box-sizing: border-box;
-        width: 100%;
-        max-width: 100%;
-      }
-
-      .home-content .member-profile p,
-      .news-item {
-        overflow-wrap: break-word;
-        word-break: normal;
-      }
-    }
-
-    /* 375px以下 */
-    @media (max-width: 375px) {
-      .hero {
-        margin-bottom: 20px;
-        padding: 20px 14px;
-      }
-
-      .hero-catch {
-        font-size: 1.2rem;
-        line-height: 1.45;
-      }
-
-      .hero-description {
-        font-size: 0.9rem;
-        line-height: 1.7;
-        text-align: center;
-      }
-
-      .home-content {
-        padding: 0 12px;
-      }
-
-      .tagline-classicpurple,
-      .tagline,
-      .tagline-futureblue {
-        box-sizing: border-box;
-        max-width: 100%;
-        overflow-wrap: break-word;
-      }
-
-      .member-profile {
-        padding-left: 14px;
-        padding-right: 14px;
-      }
-
-      .member-profile p,
-      .news-item {
-        line-height: 1.7;
-      }
     }
   </style>
 </head>
@@ -165,7 +64,7 @@
     <p>Laboratory for Rugby Coaching Studies, University of Tsukuba</p>
   </header>
 
-  <nav aria-label="メインナビゲーション">
+  <nav>
     <a href="index.html">トップ</a>
     <a href="about.html">研究室紹介</a>
     <a href="members.html">メンバー</a>
@@ -183,8 +82,7 @@
         </p>
 
         <p class="hero-description">
-          ゲームパフォーマンス分析，戦術研究，スキル研究，コーチング実践を通して，
-          <span class="pc-break"><br></span>
+          ゲームパフォーマンス分析，戦術研究，スキル研究，コーチング実践を通して，<br>
           ラグビーの競技力向上と競技の普及・発展に貢献します。
         </p>
       </div>
